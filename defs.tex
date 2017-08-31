@@ -1,0 +1,97 @@
+%
+% From: http://www.ams.org/authors/monopackages.html
+%
+\newtheorem{theorem}{Theorem}[chapter]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{property}[theorem]{Property}
+
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+
+\theoremstyle{definition}
+\newtheorem{example}[theorem]{Example}
+
+\newtheoremstyle{exercise}% name
+     {3pt}%      Space above
+     {6pt}%      Space below
+     {}%         Body font
+     {}%         Indent amount (empty = no indent, \parindent = para indent)
+     {}% Thm head font
+     {)}%        Punctuation after thm head
+     {.5em}%     Space after thm head: " " = normal interword space;
+           %       \newline = linebreak
+     {}
+
+\newcounter{exercount}
+\theoremstyle{exercise}
+\newtheorem{exercise}[exercount]{}
+\renewcommand{\theexercount}{\thechapter.\arabic{exercount}}
+
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+\numberwithin{section}{chapter}
+\numberwithin{equation}{chapter}
+
+\makeatletter
+\renewcommand\paragraph{%
+   \@startsection{paragraph}{4}{0mm}%
+      {-\baselineskip}%
+      {-\baselineskip}%
+      {\normalfont\normalsize\bfseries}}
+\makeatother
+
+\newcommand{\eref}[1]{(\ref{#1})}      % FOR EQUATION REFERENCES
+\newcommand{\defeq}{\triangleq}        % DEFINED TO BE EQUAL TO
+\newcommand{\nats}{\mathbb{N}}
+\newcommand{\positives}{\mathbb{P}}
+\newcommand{\reals}{\mathbb{R}}
+\newcommand{\ints}{\mathbb{Z}}
+\newcommand{\rats}{\mathbb{Q}}
+\newcommand{\complexes}{\mathbb{C}}
+\newcommand{\vvec}[2]{ \left ( \begin{array}{c} #1 \\ #2 \end{array} \right ) }
+\newcommand{\vvvec}[3]{ \left ( \begin{array}{c} #1 \\ #2 \\ #3 \end{array} \right ) }
+
+\newcommand{\pd}[2]{\frac{\partial #1}{\partial #2}}
+
+\newcommand{\enx}{ % TO END EXAMPLES
+  \hfill 
+  {\small $\blacktriangle$}
+  \bigskip
+}
+
+\newcommand{\ev}[1]{\langle #1 \rangle}
+
+\newcommand{\react}[1]{\xrightharpoon[]{#1}}
+
+\newcommand{\rreact}[2]{\xrightleftharpoons[#2]{#1}}
+
+\makeatletter
+\newcommand{\xrightharpoon}[2][]{%
+  \ensuremath{%
+    \mathrel{%
+      \settoheight{\dimen@}{\raise 2pt\hbox{$\rightharpoonup$}}%
+      \setlength{\dimen@}{-\dimen@}%
+      \edef\CA@temp{\the\dimen@}%
+      \settoheight\dimen@{$\rightleftharpoons$}%
+      \addtolength{\dimen@}{\CA@temp}%
+      \raisebox{\dimen@}{%
+        \rlap{%
+          \raisebox{2pt}{%
+            $%
+            \ext@arrow 0359\rightharpoonupfill@{\hphantom{#1}}{#2}%
+            $%
+          }%
+        }%
+        \hbox{%
+          \raisebox{2pt}{%
+            $%
+            \ext@arrow 0359\rightharpoonupfill@{\hphantom{#1}}{#2}%
+            $%
+          }%
+        }%
+      }%
+    }%
+  }%
+}
+\makeatother

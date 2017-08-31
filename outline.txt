@@ -1,0 +1,48 @@
+Lecture
+------
+
+Introduction
+  Bacteria and Molecules
+  Transcription and Translation
+  Signaling 
+  Metabolism
+
+ODEs
+  Definitions and notation
+  Equilibra
+  Stability
+  Limit cycles: descriptive
+  Bacterial growth
+  Competetive Growth
+  Simple reactions
+
+Mass action kinetics
+  Basically Feinberg ch 1-2
+  Several good examples
+
+Time scale separation
+  Motivate with Michalis-Menton
+  Then Khalil
+
+Enzyme Kinetics
+
+Feedback, Sensitivity, and Robustness
+
+Input/output and interconnections
+  Retroactivity
+
+Parameter Estimation
+
+Markov Processes
+
+Stochastic Kinetics
+
+Moment dynamics
+
+Evolution
+
+Mathematica
+  This should go in an appendix
+
+Note: Example artificial systems should be introduced throughout
+

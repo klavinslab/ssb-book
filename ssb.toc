@@ -1,0 +1,110 @@
+\contentsline {chapter}{\tocchapter {Chapter}{1}{Introduction}}{1}{chapter.1}
+\contentsline {section}{\tocsection {}{1.1}{What is Synthetic Biology?}}{1}{section.1.1}
+\contentsline {paragraph}{\tocparagraph {}{}{Sensing:}}{2}{section*.1}
+\contentsline {paragraph}{\tocparagraph {}{}{Actuation:}}{2}{section*.2}
+\contentsline {paragraph}{\tocparagraph {}{}{Control:}}{3}{section*.4}
+\contentsline {paragraph}{\tocparagraph {}{}{Information:}}{4}{section*.5}
+\contentsline {paragraph}{\tocparagraph {}{}{Evolution:}}{4}{section*.6}
+\contentsline {section}{\tocsection {}{1.2}{The Applications of Synthetic Biology}}{5}{section.1.2}
+\contentsline {paragraph}{\tocparagraph {}{}{Gene Therapy:}}{6}{section*.7}
+\contentsline {paragraph}{\tocparagraph {}{}{Biofuels and other Useful Molecules:}}{6}{section*.8}
+\contentsline {paragraph}{\tocparagraph {}{}{Bioremediation:}}{7}{section*.9}
+\contentsline {paragraph}{\tocparagraph {}{}{Tools and Parts:}}{8}{section*.10}
+\contentsline {section}{\tocsection {}{1.3}{The Challenges of Synthetic Biology}}{8}{section.1.3}
+\contentsline {paragraph}{\tocparagraph {}{}{Composition:}}{8}{section*.11}
+\contentsline {paragraph}{\tocparagraph {}{}{Modeling:}}{9}{section*.13}
+\contentsline {paragraph}{\tocparagraph {}{}{Robustness:}}{10}{section*.14}
+\contentsline {paragraph}{\tocparagraph {}{}{Stochasticity:}}{10}{section*.15}
+\contentsline {paragraph}{\tocparagraph {}{}{Debugging:}}{11}{section*.16}
+\contentsline {paragraph}{\tocparagraph {}{}{Evolution Again:}}{12}{section*.17}
+\contentsline {section}{\tocsection {}{1.4}{The Ethics and Risks of Synthetic Biology}}{12}{section.1.4}
+\contentsline {section}{\tocsection {}{1.5}{Overview}}{14}{section.1.5}
+\contentsline {section}{\tocsection {}{1.6}{Problems}}{15}{section.1.6}
+\contentsline {chapter}{\tocchapter {Chapter}{2}{Basic Biochemistry}}{17}{chapter.2}
+\contentsline {section}{\tocsection {}{2.1}{{\em E. coli}: The Model Procaryote}}{17}{section.2.1}
+\contentsline {section}{\tocsection {}{2.2}{Molecules in the Cell}}{18}{section.2.2}
+\contentsline {paragraph}{\tocparagraph {}{}{DNA}}{19}{section*.19}
+\contentsline {paragraph}{\tocparagraph {}{}{RNA}}{19}{section*.21}
+\contentsline {paragraph}{\tocparagraph {}{}{Protein}}{21}{section*.23}
+\contentsline {paragraph}{\tocparagraph {}{}{Small Molecules}}{22}{section*.26}
+\contentsline {section}{\tocsection {}{2.3}{Processes}}{23}{section.2.3}
+\contentsline {subsection}{\tocsubsection {}{2.3.1}{Transcription}}{23}{subsection.2.3.1}
+\contentsline {subsection}{\tocsubsection {}{2.3.2}{Translation}}{24}{subsection.2.3.2}
+\contentsline {subsection}{\tocsubsection {}{2.3.3}{Regulation}}{25}{subsection.2.3.3}
+\contentsline {subsection}{\tocsubsection {}{2.3.4}{Metabolism}}{27}{subsection.2.3.4}
+\contentsline {subsection}{\tocsubsection {}{2.3.5}{Signaling}}{30}{subsection.2.3.5}
+\contentsline {subsection}{\tocsubsection {}{2.3.6}{Growth and Division}}{30}{subsection.2.3.6}
+\contentsline {section}{\tocsection {}{2.4}{Re-programming {\em E. coli}}}{30}{section.2.4}
+\contentsline {section}{\tocsection {}{2.5}{How we See What's Going On}}{30}{section.2.5}
+\contentsline {section}{\tocsection {}{2.6}{Problems}}{30}{section.2.6}
+\contentsline {chapter}{\tocchapter {Chapter}{3}{Differential Equations}}{31}{chapter.3}
+\contentsline {section}{\tocsection {}{3.1}{Definitions and Examples}}{31}{section.3.1}
+\contentsline {section}{\tocsection {}{3.2}{Simulation}}{33}{section.3.2}
+\contentsline {section}{\tocsection {}{3.3}{Equlibria and Stability}}{34}{section.3.3}
+\contentsline {section}{\tocsection {}{3.4}{Linearization and Local Stability}}{36}{section.3.4}
+\contentsline {section}{\tocsection {}{3.5}{Non-Dimensionalization}}{38}{section.3.5}
+\contentsline {section}{\tocsection {}{3.6}{Problems}}{38}{section.3.6}
+\contentsline {chapter}{\tocchapter {Chapter}{4}{Mass Action Kinetics}}{41}{chapter.4}
+\contentsline {section}{\tocsection {}{4.1}{Definitions}}{41}{section.4.1}
+\contentsline {subsection}{\tocsubsection {}{4.1.1}{Reaction Networks}}{41}{subsection.4.1.1}
+\contentsline {subsection}{\tocsubsection {}{4.1.2}{Kinetics}}{42}{subsection.4.1.2}
+\contentsline {subsection}{\tocsubsection {}{4.1.3}{The Determinstic Equations}}{43}{subsection.4.1.3}
+\contentsline {subsection}{\tocsubsection {}{4.1.4}{Basic Properties}}{44}{subsection.4.1.4}
+\contentsline {section}{\tocsection {}{4.2}{Example Networks}}{46}{section.4.2}
+\contentsline {subsection}{\tocsubsection {}{4.2.1}{Sources and Sinks}}{46}{subsection.4.2.1}
+\contentsline {subsection}{\tocsubsection {}{4.2.2}{Constant Concentrations}}{47}{subsection.4.2.2}
+\contentsline {subsection}{\tocsubsection {}{4.2.3}{Membranes}}{47}{subsection.4.2.3}
+\contentsline {subsection}{\tocsubsection {}{4.2.4}{Conservative Systems}}{48}{subsection.4.2.4}
+\contentsline {section}{\tocsection {}{4.3}{Modeling Regulatory Networks and Metabolism}}{49}{section.4.3}
+\contentsline {section}{\tocsection {}{4.4}{Problems}}{51}{section.4.4}
+\contentsline {chapter}{\tocchapter {Chapter}{5}{Enzyme Kinetics}}{53}{chapter.5}
+\contentsline {section}{\tocsection {}{5.1}{Fast and Slow Dynamics}}{53}{section.5.1}
+\contentsline {section}{\tocsection {}{5.2}{Enzyme Reactions}}{53}{section.5.2}
+\contentsline {subsection}{\tocsubsection {}{5.2.1}{The Michaelis-Menten Model}}{53}{subsection.5.2.1}
+\contentsline {subsection}{\tocsubsection {}{5.2.2}{Competetive Inhibition}}{55}{subsection.5.2.2}
+\contentsline {section}{\tocsection {}{5.3}{Hill Functions}}{56}{section.5.3}
+\contentsline {section}{\tocsection {}{5.4}{Problems}}{59}{section.5.4}
+\contentsline {chapter}{\tocchapter {Chapter}{6}{Synthetic Regulatory Networks}}{61}{chapter.6}
+\contentsline {section}{\tocsection {}{6.1}{Re-programming {\em E. coli}}}{61}{section.6.1}
+\contentsline {subsection}{\tocsubsection {}{6.1.1}{Basic Genetic Engineering}}{61}{subsection.6.1.1}
+\contentsline {subsection}{\tocsubsection {}{6.1.2}{How we See What's Going On}}{61}{subsection.6.1.2}
+\contentsline {subsection}{\tocsubsection {}{6.1.3}{Inducing and Tuning Behaviors}}{61}{subsection.6.1.3}
+\contentsline {section}{\tocsection {}{6.2}{Switches and Oscillators}}{61}{section.6.2}
+\contentsline {subsection}{\tocsubsection {}{6.2.1}{The Bistable Switch}}{61}{subsection.6.2.1}
+\contentsline {paragraph}{\tocparagraph {}{}{The case when $n=m=1$:}}{62}{section*.46}
+\contentsline {paragraph}{\tocparagraph {}{}{The case when $n=m>1$:}}{62}{section*.47}
+\contentsline {paragraph}{\tocparagraph {}{}{No Cooperativity}}{63}{section*.49}
+\contentsline {subsection}{\tocsubsection {}{6.2.2}{The Repressilator}}{64}{subsection.6.2.2}
+\contentsline {subsection}{\tocsubsection {}{6.2.3}{Hysteresis Based Oscillators}}{64}{subsection.6.2.3}
+\contentsline {subsection}{\tocsubsection {}{6.2.4}{A Bandbass Filter}}{64}{subsection.6.2.4}
+\contentsline {section}{\tocsection {}{6.3}{RNA Regulatory Mechanisms}}{64}{section.6.3}
+\contentsline {section}{\tocsection {}{6.4}{Problems}}{64}{section.6.4}
+\contentsline {chapter}{\tocchapter {Chapter}{7}{{\em In vitro} Synthetic Biology}}{65}{chapter.7}
+\contentsline {section}{\tocsection {}{7.1}{Enzyme Free DNA Circuits}}{65}{section.7.1}
+\contentsline {subsection}{\tocsubsection {}{7.1.1}{Mechanisms}}{65}{subsection.7.1.1}
+\contentsline {subsection}{\tocsubsection {}{7.1.2}{Design Constraints}}{65}{subsection.7.1.2}
+\contentsline {subsection}{\tocsubsection {}{7.1.3}{Structure Prediction Software}}{65}{subsection.7.1.3}
+\contentsline {subsection}{\tocsubsection {}{7.1.4}{The Design of an OR Gate}}{65}{subsection.7.1.4}
+\contentsline {subsection}{\tocsubsection {}{7.1.5}{Three Different AND Gates}}{65}{subsection.7.1.5}
+\contentsline {section}{\tocsection {}{7.2}{Transcriptional Circuits}}{67}{section.7.2}
+\contentsline {section}{\tocsection {}{7.3}{Problems}}{67}{section.7.3}
+\contentsline {chapter}{\tocchapter {Chapter}{8}{Stochastic Chemcal Kinetics}}{69}{chapter.8}
+\contentsline {section}{\tocsection {}{8.1}{Stochasticity in Cell Dynamics}}{69}{section.8.1}
+\contentsline {section}{\tocsection {}{8.2}{Foundations of Stochastic Chemical Reactions}}{69}{section.8.2}
+\contentsline {section}{\tocsection {}{8.3}{Simple Examples}}{71}{section.8.3}
+\contentsline {section}{\tocsection {}{8.4}{Moment Dynamics}}{75}{section.8.4}
+\contentsline {section}{\tocsection {}{8.5}{Approximate Methods}}{77}{section.8.5}
+\contentsline {section}{\tocsection {}{8.6}{Simulation}}{78}{section.8.6}
+\contentsline {paragraph}{\tocparagraph {}{}{Next Reaction:}}{79}{section*.58}
+\contentsline {paragraph}{\tocparagraph {}{}{Reaction Time:}}{79}{section*.59}
+\contentsline {paragraph}{\tocparagraph {}{}{The SSA:}}{79}{section*.60}
+\contentsline {section}{\tocsection {}{8.7}{Computing with Molecules}}{80}{section.8.7}
+\contentsline {section}{\tocsection {}{8.8}{Problems}}{83}{section.8.8}
+\contentsline {chapter}{\tocchapter {Chapter}{9}{Composition and Modularity}}{87}{chapter.9}
+\contentsline {section}{\tocsection {}{9.1}{Signals}}{87}{section.9.1}
+\contentsline {section}{\tocsection {}{9.2}{Modules}}{87}{section.9.2}
+\contentsline {section}{\tocsection {}{9.3}{Composition}}{87}{section.9.3}
+\contentsline {section}{\tocsection {}{9.4}{Retroactivity}}{87}{section.9.4}
+\contentsline {chapter}{\tocchapter {Chapter}{10}{Robustness and Sensitivity}}{89}{chapter.10}
+\contentsline {chapter}{\tocchapter {Chapter}{11}{Parameter Estimation and System Identification}}{91}{chapter.11}
+\contentsline {chapter}{\tocchapter {Chapter}{A}{Mathematica}}{93}{appendix.A}

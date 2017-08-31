@@ -1,0 +1,105 @@
+\documentclass[10pt]{amsbook}
+
+% \usepackage{graphicx}
+\usepackage{chemarr}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{latexsym}
+\usepackage{epsfig}
+\usepackage{amsthm}
+\usepackage[Lenny]{fncychap}
+\usepackage{hyperref}
+
+\renewcommand{\chaptermark}[1]{%
+\markboth{\chaptername
+\ \thechapter.\ #1}{}}
+
+\usepackage{lipsum} % for filler text
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead{} % clear all header fields
+\fancyhead[RE,LO]{\small\textsf{\rightmark}}
+\fancyhead[RO,LE]{\small\textsf{\thepage}}
+\renewcommand{\headrulewidth}{0pt} % no line in header area
+\fancyfoot{} % clear all footer fields
+\fancyfoot[C]{\small\textsf{Eric Klavins: A Systems Approach to Synthetic Biology}} % other info in "inner" position of footer line
+
+ \usepackage[small]{caption}
+
+\input{defs.tex}
+
+\begin{document}
+
+%
+% Title
+%
+\frontmatter
+
+\pdfbookmark[0]{Front Matter}{front}
+\begin{titlepage}
+\begin{center}
+
+\vspace{1in}
+
+{\Huge\textsf{BioCircuits:\\
+\vspace{0.25in}
+A Systems Approach to Synthetic Biology}}
+
+\vspace{1in}
+
+\textsc{Eric Klavins}
+
+\vspace{0.25in}
+
+\textsc{Department of Electrical Engineering\\
+University of Washington\\
+Seattle, WA}
+
+\vfill
+ 
+% Bottom of the page
+Last compiled {\large \today}
+
+\end{center}
+\end{titlepage}
+
+\setcounter{page}{4}
+
+\tableofcontents
+
+\mainmatter
+\input{intro.tex}
+
+\input{biology.tex}
+
+\input{odes.tex}
+
+\input{mak.tex}
+
+\input{singular.tex}
+
+\input{in-vivo.tex}
+
+\input{in-vitro.tex}
+
+\input{cme.tex}
+
+\input{composition.tex}
+
+\input{robustness.tex}
+
+\input{parameters.tex}
+
+\appendix
+%    Include appendix "chapters" here.
+\input{mathematica.tex}
+
+\backmatter
+%    Bibliographies can be prepared with BibTeX using amsplain,
+%    amsalpha, or (for "historical" overviews) natbib style.
+\bibliographystyle{amsplain}
+\pdfbookmark[0]{Bibliography}{biblio}
+\bibliography{refs}
+
+\end{document}

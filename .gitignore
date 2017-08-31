@@ -1,0 +1,5 @@
+.DS_Store
+/chapters
+*.ps
+*.aux
+*.bbl

@@ -1,0 +1,33 @@
+What are the pros and cons of devoting my sabbatical year to
+writing/finishing a text on "synthetic biology"?
+
+Pros
+  - Useful for my group and my students
+  - Might learn something
+
+Cons
+  - Likely to be many such books coming out soon. 
+  - A thorough book needs to have tons of literature review -- which I hate
+ 
+How can I focus the book on the set of topics of interest to me -- or
+that I have some expertise on? To some extent I don't know enough to
+write this book. There is so much out there already that I can't
+imagine spending all my time cataloging it all. I'd rather focus on
+one thing. 
+
+Maybe I want to write just the stochastics book? For this there are
+way fewer papers and competing groups to worry about.
+
+What would go into the book?
+  - Biology
+    + dogma
+    + useful mechanisms
+  - Models of biochemical reactions
+  - Models computation
+  - Models of control systems
+  - Examples
+
+What are the goals of the course?
+  - Students should be able to 
+      + design and analyze new systems
+      + understand what is practical

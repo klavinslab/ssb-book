@@ -1,0 +1,32 @@
+4.1) The system has two distinct sets of equilibria. One where <math>v_X=0</math> and <math>v_Z=0</math> and one where <math>v_Y=0</math> and <math>v_Z=0</math>. To determine the stability of these situations, one is tempted to look at the eigenvalues of the Jacobian of <math>A K(v)</math>. However, in both cases, there are two eigenvalues that are zero. One of them is due to the fact that the system is really two dimensional (see problem 4.2). However, the other is more problematic and one would really have to study higher order terms in the Taylor expansion to determine stability using this route. Note that the Jacobian of the system in <math>r_1,r_2</math> variables (see problem 4.2) still has this problem. However, it is fairly simple to see that either of the equilibrium sets can be stable (assuming no new molecules can be added tot he system). The system uses up <math>X</math> and <math>Y</math> until either are depleted. If <math>v_Y(0) < v_Z(0)+v_X(0)</math>, then the <math>v_Y=0</math> equilibria are stable. Otherwise, the other equilibra are stable. Formally, a simple <math>\epsilon</math> argument works. Suppose the system is at rest at <math>v_X=0</math>, <math>v_Z=0</math> and <math>v_Y>0</math>. Then adding a small amount of X and Z will simply deplete all the X and the system will return to the same equilibrium set. A similar argument holds for the other equilibrium set.
+
+[[Image:Phase-portrait.jpg|thumb|250px|right|Phase portrait in reduced coordinates.]]
+4.2) In <math>r</math> coordinates
+:::<math>\dot r_1 = (-r_1+r_2+v_X(0))(-r_1+v_Y(0))</math>
+:::<math>\dot r_2 = (r_1 - 2 r_2+v_Z(0))^2.</math>
+Some students were tempted to look at the Jacobian of this. It is indeed informative to do so, except that one of the eigenvalues is zero. The other eigenvalue gives necessary but not sufficient conditions for stability. Because this eigevalue depends on <math>v(0)</math>, some students said that stability depended on the initial conditions. But this isn't true as <math>v(0)</math> is the initial condition of the original system, not the system in <math>r_1,r_2</math> coordinates. The system in the <math>r_1,r_2</math> coordinates is easy to analyze using nullclines, however. The phase portrait to the left shows the stability of one of the points and the instability of the other in the case where Y is depleted before X is. The red lines are the nullcline for <math>r_1</math> and the green are for <math>r_2</math>. The darkest shaded region shows the only portion of the <math>r_1,r_2</math> plane that corresponds to positive concentrations of X, Y and Z.
+
+4.4) (a) The stoichiometric matrix is 
+:::<math>A = \left ( \begin{array}{c}-1\\1\end{array} \right ) </math>
+and the kinetics vector is 
+:::<math>K(v) = (v_X^2 v_Y) .</math>
+(b) The stoichiometic subspace one dimensional and is the set of vectors of the form 
+:::<math>A = \left ( \begin{array}{c}-r\\r\end{array} \right ). </math>
+(c) Suppose the initial condition is 
+:::<math>v(0) = \left ( \begin{array}{c}1\\1\end{array} \right ) .</math>
+The stiochiometic equivalence class of <math>v(0)</math> is the set of all vectors
+of the form
+:::<math>v(t) = \left ( \begin{array}{c}1-r\\1+r\end{array} \right ) .</math>
+(d) The system has a mass vector <math>m = ( 1 \;\; 1 )^T</math> for example. <br>
+(e) There are two classes of equilibria, one when <math>v_X=0</math> and another when
+<math>v_Y=0</math>. The Jacobian is
+:::<math>A = \left ( \begin{array}{cc}0 & -v_X^2\\0 & v_X^2\end{array} \right ) </math>.
+Evaluated when <math>v_Y=0</math>, the Jacobian has two eigenvalues 0 and <math>v_X^2</math>. The first eigenvalue
+0 corresponds to the fact that the system is really one-dimensional (see the mass vector). The second is
+positive and indicates
+that the situation when <math>v_Y=0</math> is unstable. When evaluated at <math>v_X=0</math>, the Jacobian
+is zero, which means that a stability test is inconclusive. However, it is clear that
+the vector evaluated at a small epsilon away from <math>v_X=0</math> points towards the <math>v_X=0</math>
+condition. Thus it is stable.
+(f) The phase plot below sums up the information above.
+:::[[Image:Phase_Plot_4_4.jpg]]
