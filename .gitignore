@@ -3,3 +3,8 @@
 *.ps
 *.aux
 *.bbl
+*.dvi
+*.blg
+*.log
+*.out
+*.toc
